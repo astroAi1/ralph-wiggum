@@ -1,0 +1,51 @@
+{
+  "branchName": "ralph/feature",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Add login form",
+      "acceptanceCriteria": [
+        "Email/password fields render",
+        "Validates email format (regex)",
+        "Shows error on invalid email",
+        "Shows error on empty fields",
+        "typecheck passes",
+        "Verify at localhost:$PORT/login (PORT defaults to 3000)"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Add signup form",
+      "acceptanceCriteria": [
+        "Email/password/confirm password fields render",
+        "Password strength validation (min 8 chars, 1 number, 1 special)",
+        "Shows error when passwords don't match",
+        "Shows error on weak password",
+        "typecheck passes",
+        "Verify at localhost:$PORT/signup (PORT defaults to 3000)"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-003",
+      "title": "Add password reset flow",
+      "acceptanceCriteria": [
+        "Email input field renders on /reset-password",
+        "Sends reset link to console (email simulation)",
+        "Reset link format: /reset-password?token=<uuid>",
+        "Token validation works (checks expiry)",
+        "New password form accepts input",
+        "typecheck passes",
+        "Verify at localhost:$PORT/reset-password (PORT defaults to 3000)"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": "Use console.log to simulate email sending"
+    }
+  ]
+}

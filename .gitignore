@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Build outputs
+dist/
+build/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Development browser screenshots (dev-browser)
+scripts/ralph/tmp/*.png
+scripts/ralph/tmp/*.jpg
+*.screenshot.png
+
+# Local progress files (user-specific)
+scripts/ralph/progress.txt.bak
+scripts/ralph/prd.json.bak
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace

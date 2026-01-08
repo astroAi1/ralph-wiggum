@@ -1,0 +1,9 @@
+{
+  "name": "ralph-wiggum",
+  "description": "Implementation of the Ralph Wiggum technique - continuous self-referential AI loops for interactive iterative development",
+  "version": "1.0.0",
+  "author": {
+    "name": "daniel riding",
+    "email": "danriding29@gmail.com"
+  }
+}
