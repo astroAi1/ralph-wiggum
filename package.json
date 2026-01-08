@@ -1,9 +1,30 @@
 {
   "name": "ralph-wiggum",
   "version": "1.0.0",
-  "description": "Implementation of the Ralph Wiggum technique - continuous self-referential AI loops for interactive iterative development. Run Claude in a while-true loop with the same prompt until task completion.",
+  "description": "Claude Code plugin for continuous self-referential AI loops and iterative development. Features PRD-based workflows, security review agent, and autonomous development loops.",
   "author": {
-    "name": "daniel riding",
+    "name": "Daniel Riding",
     "email": "danriding29@gmail.com"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astroAi1/ralph-wiggum.git"
+  },
+  "homepage": "https://github.com/astroAi1/ralph-wiggum#readme",
+  "bugs": {
+    "url": "https://github.com/astroAi1/ralph-wiggum/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "ai-development",
+    "iterative-development",
+    "automation",
+    "code-review",
+    "security",
+    "prd",
+    "agile",
+    "continuous-integration"
+  ]
 }
