@@ -98,6 +98,24 @@ cd scripts/ralph
 ./ralph.sh 20
 ```
 
+## Supercharge with Skills (Optional)
+
+Install Claude Skills for enhanced automation:
+
+```bash
+# Install recommended skills
+mkdir -p ~/.config/claude-code/skills
+cd ~/.config/claude-code/skills
+
+# git-pushing - Automated commits
+# test-fixing - Auto-fix failing tests
+# review-implementing - Apply security fixes
+
+# See SKILLS-INTEGRATION.md for full guide
+```
+
+Ralph automatically uses installed skills!
+
 ## Tips
 
 ✅ **Keep stories small** - Each story should complete in 1-2 iterations
@@ -105,6 +123,7 @@ cd scripts/ralph
 ✅ **Always use skip-permissions** - Essential for autonomous loops
 ✅ **Run Big Dog before deploys** - Security review before production
 ✅ **Check AGENTS.md** - Maintains cross-cutting patterns
+✅ **Install skills** - git-pushing and test-fixing for automation
 
 ## Common Issues
 

@@ -123,6 +123,19 @@ If specific files or concerns are mentioned:
 
 Review those files in detail, then check related files.
 
+## After Review: Automated Fixes
+
+Big Dog identifies issues, but you can apply fixes automatically using the **review-implementing** skill:
+
+1. **Big Dog reviews** → Outputs findings
+2. **Use review-implementing skill** → Applies fixes automatically
+3. **Re-run Big Dog** → Verify fixes worked
+4. **Document in AGENTS.md** → Record patterns
+
+**Skills Integration:**
+- Install review-implementing skill: ~/.config/claude-code/skills/review-implementing/
+- See SKILLS-INTEGRATION.md for details
+
 ---
 
 **Remember:** You're protecting the user's code and users. Be thorough but practical.

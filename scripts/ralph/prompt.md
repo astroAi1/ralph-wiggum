@@ -9,11 +9,32 @@
 4. Pick highest priority user story from `userStories`
    where `passes: false`
 5. Implement that ONE story
-6. Run typecheck and tests
+6. Run typecheck and tests (use **test-fixing** skill if tests fail)
 7. Update AGENTS.md files with learnings (see guidelines below)
-8. Commit: `feat: [ID] - [Title]`
+8. Commit: `feat: [ID] - [Title]` (use **git-pushing** skill if available)
 9. Update prd.json: set that story's `passes: true`
 10. Append learnings to progress.txt
+
+## Skills Integration
+
+Ralph can leverage Claude Skills for enhanced automation:
+
+### **git-pushing** (Recommended)
+- Automates git commits and pushes
+- Use in step 8 for semantic commits
+- Handles staging, committing, and pushing
+
+### **test-fixing** (Recommended)
+- Automatically fixes failing tests
+- Use in step 6 when tests fail
+- Iterates until tests pass
+
+### **review-implementing**
+- Implements code review feedback
+- Use after security reviews
+- Applies fixes automatically
+
+If these skills are installed (~/.config/claude-code/skills/), use them when appropriate.
 
 ## AGENTS.md Guidelines
 

@@ -64,11 +64,14 @@ Ralph will:
 1. Read prd.json and progress.txt
 2. Pick the highest priority story where `passes: false`
 3. Implement that story
-4. Run tests
-5. Commit the changes
+4. Run tests (uses **test-fixing** skill if available)
+5. Commit the changes (uses **git-pushing** skill if available)
 6. Update prd.json to `passes: true`
 7. Append learnings to progress.txt
 8. Repeat until all stories pass
+
+**Skills Integration:**
+Ralph can leverage Claude Skills for automation. See [SKILLS-INTEGRATION.md](../../SKILLS-INTEGRATION.md) for setup.
 
 ### 3. Monitor Progress
 

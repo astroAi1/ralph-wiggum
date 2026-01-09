@@ -113,6 +113,30 @@ Performs comprehensive security audits and code quality reviews. Checks for:
 
 See [AGENT-NICKNAMES.md](AGENT-NICKNAMES.md) for quick reference.
 
+### Skills Integration
+
+🔧 **Supercharge Ralph with Claude Skills!**
+
+Ralph integrates with skills from [awesome-claude-skills](https://github.com/astroAi1/awesome-claude-skills):
+
+**Recommended Skills:**
+- **git-pushing** - Automated git commits and pushes
+- **test-fixing** - Auto-fix failing tests
+- **review-implementing** - Apply Big Dog's security fixes automatically
+- **playwright** - Enhanced UI testing
+
+**Quick Setup:**
+```bash
+# Install skills
+mkdir -p ~/.config/claude-code/skills
+cd ~/.config/claude-code/skills
+# Clone skills you want (see SKILLS-INTEGRATION.md)
+```
+
+Ralph automatically uses installed skills during workflows!
+
+See [SKILLS-INTEGRATION.md](SKILLS-INTEGRATION.md) for complete guide.
+
 ### Get Help
 
 ```bash
@@ -329,6 +353,9 @@ ralph-wiggum/
 │   └── example-simple.md    # Simple task example
 ├── AGENT-NICKNAMES.md       # Quick reference for agent nicknames
 ├── QUICK-START.md           # 60-second getting started guide
+├── SKILLS-INTEGRATION.md    # Claude Skills integration guide
+├── GITHUB-SETUP.md          # GitHub setup instructions
+├── LICENSE                  # MIT License
 ├── prompt.md                # General prompt template
 ├── package.json             # Package metadata
 └── README.md                # This file
